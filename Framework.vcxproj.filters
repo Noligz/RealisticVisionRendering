@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{343bf2aa-a494-432e-986f-d672cd1b9f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Geometry">
+      <UniqueIdentifier>{bcdfe1a2-ce2d-4c74-88cb-f3fece1bdbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Scenes">
+      <UniqueIdentifier>{3d02db94-dbdc-48fa-82c0-e5bf631efe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Scenes\Loaders">
+      <UniqueIdentifier>{7d2626f6-c5c5-497c-9627-194de00a1d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DX">
+      <UniqueIdentifier>{16fb317b-9b46-43df-8b08-2b6b0c4cec2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AccelerationStructures">
+      <UniqueIdentifier>{f5e7fa36-125a-4397-8b21-c318ea94088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AccelerationStructures\BVH">
+      <UniqueIdentifier>{d91df61c-f061-4b6b-b549-14d119641826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AccelerationStructures\Null">
+      <UniqueIdentifier>{3673ce70-06ce-4eb0-a93c-3c85192b902a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracerCS">
+      <UniqueIdentifier>{169fc2de-e7f1-4e45-99d1-69e509fe2393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracerCS\Shaders">
+      <UniqueIdentifier>{fca5fe46-b526-4f4c-ad1b-03e6b7b147d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracerCS\Shaders\AccelerationStructures">
+      <UniqueIdentifier>{25245c0b-f44c-4e7b-8b91-c15334c94507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracerCS\Shaders\CS">
+      <UniqueIdentifier>{a3c5b007-5594-4f65-950b-ebd35b9f9e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracerCS\Shaders\Core">
+      <UniqueIdentifier>{92dc9b41-5965-4419-a149-e74b00281190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{89117271-8ea1-4464-9ff7-139aa5450cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ConfigParser">
+      <UniqueIdentifier>{a75d9549-728b-4cfd-86d9-6c8adc0e0f53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\ArgumentsParser.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Input.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Light.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Memory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Performance.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scenes\Material.cpp">
+      <Filter>Common\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scenes\Model.cpp">
+      <Filter>Common\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scenes\Object.cpp">
+      <Filter>Common\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scenes\Primitive.cpp">
+      <Filter>Common\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scenes\Scene.cpp">
+      <Filter>Common\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scenes\Loaders\model_obj.cpp">
+      <Filter>Common\Scenes\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DX\D3D11Object.cpp">
+      <Filter>D3DX</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DX\D3DComputeShader.cpp">
+      <Filter>D3DX</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DX\D3DConstantBuffer.cpp">
+      <Filter>D3DX</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DX\D3DResource.cpp">
+      <Filter>D3DX</Filter>
+    </ClCompile>
+    <ClCompile Include="AccelerationStructures\AccelerationStructure.cpp">
+      <Filter>AccelerationStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="AccelerationStructures\BVH\bvh.cpp">
+      <Filter>AccelerationStructures\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="AccelerationStructures\Null\NullShader.cpp">
+      <Filter>AccelerationStructures\Null</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTracerCS\RayTracerCS.cpp">
+      <Filter>RayTracerCS</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Common\Eye.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ConfigParser\config.cpp">
+      <Filter>Common\ConfigParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ConfigParser\log.cpp">
+      <Filter>Common\ConfigParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ReductionData.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\ArgumentsParser.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Input.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Light.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Memory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Performance.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Geometry\BBox.h">
+      <Filter>Common\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Geometry\Geometry.h">
+      <Filter>Common\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Geometry\Matrix4.h">
+      <Filter>Common\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Geometry\Ray.h">
+      <Filter>Common\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Geometry\Vertex.h">
+      <Filter>Common\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scenes\Material.h">
+      <Filter>Common\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scenes\Model.h">
+      <Filter>Common\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scenes\Object.h">
+      <Filter>Common\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scenes\Primitive.h">
+      <Filter>Common\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scenes\Scene.h">
+      <Filter>Common\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scenes\Loaders\model_obj.h">
+      <Filter>Common\Scenes\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\D3D11Object.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\D3DComputeShader.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\D3DConstantBuffer.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\D3DResource.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerationStructures\AccelerationStructure.h">
+      <Filter>AccelerationStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerationStructures\BVH\bvh.h">
+      <Filter>AccelerationStructures\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerationStructures\Null\NullShader.h">
+      <Filter>AccelerationStructures\Null</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracerCS\ConstantBuffers.h">
+      <Filter>RayTracerCS</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracerCS\RayTracerCS.h">
+      <Filter>RayTracerCS</Filter>
+    </ClInclude>
+    <ClInclude Include="OS\WindowsUtil.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Eye.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ConfigParser\config.h">
+      <Filter>Common\ConfigParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ConfigParser\log.h">
+      <Filter>Common\ConfigParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ReductionData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Raytracer.rc">
+      <Filter>Common</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="RayTracerCS\Shaders\App.hlsl">
+      <Filter>RayTracerCS\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\ConstantBuffers.hlsl">
+      <Filter>RayTracerCS\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\Structures.hlsl">
+      <Filter>RayTracerCS\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\AccelerationStructures\BVH.hlsl">
+      <Filter>RayTracerCS\Shaders\AccelerationStructures</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\AccelerationStructures\Simple.hlsl">
+      <Filter>RayTracerCS\Shaders\AccelerationStructures</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\CS\CSComputeColorRT.hlsl">
+      <Filter>RayTracerCS\Shaders\CS</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\CS\CSIntersections.hlsl">
+      <Filter>RayTracerCS\Shaders\CS</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\CS\CSPrimaryRays.hlsl">
+      <Filter>RayTracerCS\Shaders\CS</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\Core\Intersection.hlsl">
+      <Filter>RayTracerCS\Shaders\Core</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\CS\CSReconstruction.hlsl">
+      <Filter>RayTracerCS\Shaders\CS</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\CS\CSMisc.hlsl">
+      <Filter>RayTracerCS\Shaders\CS</Filter>
+    </FxCompile>
+    <FxCompile Include="RayTracerCS\Shaders\CS\CSReduction.hlsl">
+      <Filter>RayTracerCS\Shaders\CS</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="conf.ini" />
+  </ItemGroup>
+</Project>
